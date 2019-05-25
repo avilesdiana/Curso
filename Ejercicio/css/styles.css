@@ -1,7 +1,19 @@
 /*
- Va en cascada, el último predomina. 
+ Va en cascada, el último predomina.
+ # es para id's, solo por página puede tener 1
+ . es para clases es para ser reutilizada
+ 
+ 
 */
 
-h1 {
-    color: blueviolet;
+#site-header {
+    background-color: blueviolet;
+}
+
+.encabezado {
+    color: red;
+}
+
+.mayusculas {
+    text-transform: uppercase;
 }
