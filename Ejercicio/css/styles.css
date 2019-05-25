@@ -6,6 +6,17 @@
 */
 
 
+/**Globales **/
+
+.contenedor {
+    max-width: 1200px;
+    /*margin: 0 auto 0 auto;
+    orden como de reloj, arriba, derecha, abajo, izquierda*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 /* HEADER */
 
 .site-header.inicio {
