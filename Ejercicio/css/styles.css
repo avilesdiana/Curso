@@ -16,6 +16,7 @@ html {
 body {
     font-family: 'Lato', sans-serif;
     font-size: 1.6rem;
+    line-height: 3rem;
 }
 
 
@@ -30,19 +31,38 @@ body {
 }
 
 h1 {
-    font-size: 3.8rem;
-}
-
-h2 {
-    font-size: 3.4rem;
-}
-
-h3 {
     font-size: 3rem;
 }
 
-h4 {
+h2 {
     font-size: 2.6rem;
+}
+
+h3 {
+    font-size: 2.2rem;
+}
+
+h4 {
+    font-size: 1.8rem;
+}
+
+
+/*Utilidades*/
+
+.seccion {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+/*Creando tu propio framework dentro de utiliades*/
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.centrar-texto {
+    text-align: center;
 }
 
 
@@ -113,4 +133,31 @@ h4 {
 
 .navegacion a:last-of-type {
     margin: 0;
+}
+
+
+/*Iconos nosotros*/
+
+
+/* Asi puedes crear uno, o usar tu propio framework
+.encabezado-nosotros {
+    font-weight: 300;
+    text-align: center;
+}*/
+
+.iconos-nosotros {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icono {
+    flex-basis: calc(33.3% - 1rem);
+    text-align: center;
+    /*alinea el contenido*/
+}
+
+.icono h3 {
+    /*text-transform: capitalize;*/
+    /*Una letra mayuscula por cada palabra*/
+    text-transform: uppercase;
 }
