@@ -30,3 +30,40 @@
     min-height: 600px;
     /*toma la altura de la pantalla*/
 }
+
+.barra {
+    display: flex;
+    justify-content: space-between;
+    /*space-roud distribuye proporcionalmente*/
+    align-items: flex-end;
+    /*Alinea verticalmente*/
+    padding-top: 30px;
+    /*Espacio dentro del elemento*/
+    /*  afuera del elemento*/
+}
+
+
+/*Navegacion*/
+
+.navegacion a {
+    color: whitesmoke;
+    /*color: rgba(255,255,255, .3) el ultimo es la transparecia*/
+    /* hsla*/
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+
+/*Cambia de color  cuando se le selecciona*/
+
+.navegacion a:hover {
+    color: palevioletred;
+}
+
+
+/*no se le aplica la separación*/
+
+.navegacion a:last-of-type {
+    margin: 0;
+}
