@@ -6,6 +6,7 @@
   google fonts es la mejor opcion
   https://fonts.google.com/
   se usan rems
+  https://htmlcolorcodes.com/es/tabla-de-colores/
 */
 
 html {
@@ -22,12 +23,15 @@ body {
 
 /**Globales **/
 
+img {
+    max-width: 100%;
+}
+
 .contenedor {
     max-width: 120rem;
     /*margin: 0 auto 0 auto;
     orden como de reloj, arriba, derecha, abajo, izquierda*/
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
 h1 {
@@ -160,4 +164,33 @@ h4 {
     /*text-transform: capitalize;*/
     /*Una letra mayuscula por cada palabra*/
     text-transform: uppercase;
+}
+
+
+/*Anuncios*/
+
+.contenedor-anuncios {
+    display: flex;
+    justify-content: space-between;
+}
+
+.anuncio {
+    flex-basis: calc(33.3% - 1rem);
+    border: .1rem solid #e6b0aa;
+    background: #e6b0aa;
+    /*
+    Una forma de hacerlo
+    border-style: solid;
+    border-color: aqua;
+    border-width: .1rem;*/
+}
+
+.contenido-anuncio {
+    padding: 2rem 4rem;
+    /*Orden en mismas de las manecillas del reloj*/
+}
+
+.contenido-anuncio h3,
+.contenido-anuncio p {
+    margin: 0;
 }
