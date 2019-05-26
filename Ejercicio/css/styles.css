@@ -7,11 +7,24 @@
   https://fonts.google.com/
   se usan rems
   https://htmlcolorcodes.com/es/tabla-de-colores/
+
+  https://www.canva.com/es_mx/aprende/50-paletas-colores-visualmente-impactantes-que-inspiran/
 */
 
 html {
+    /*tambien*/
+    box-sizing: border-box;
     font-size: 62.5%;
     /*Reset para REMS - 62.5% = 10 px de 16 px */
+}
+
+
+/*No incrementa el tamaño del padding*/
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
 }
 
 body {
@@ -78,14 +91,19 @@ h4 {
     text-decoration: none;
     font-size: 1.8rem;
     padding: 1rem 3rem;
+    display: inline-block;
+    /*Display block default para anchos
+    width_ 10 px*/
 }
 
-.boton-azul {
-    background-color: #5dade2;
+.boton-mint {
+    background-color: #b4dbc0;
+    color: black;
+    font-weight: 300;
 }
 
-.boton-amarillo {
-    background-color: #f7dc6f;
+.boton-sea {
+    background-color: #a7b3a5;
 }
 
 
@@ -148,7 +166,7 @@ h4 {
 /*Cambia de color  cuando se le selecciona*/
 
 .navegacion a:hover {
-    color: palevioletred;
+    color: #b4dbc0;
 }
 
 
@@ -195,8 +213,8 @@ h4 {
 
 .anuncio {
     flex-basis: calc(33.3% - 1rem);
-    border: .1rem solid #e6b0aa;
-    background: #e6b0aa;
+    border: .1rem solid white;
+    background: #B56357;
     /*
     Una forma de hacerlo
     border-style: solid;
@@ -211,7 +229,8 @@ h4 {
 
 .contenido-anuncio h3 {
     margin: 0;
-    color: #fdfefe;
+    /*-webkit-text-stroke: .1rem white;*/
+    color: white;
     font-weight: 900;
 }
 
@@ -220,6 +239,6 @@ h4 {
 }
 
 .precio {
-    color: #e74c3c;
-    font-weight: 700;
+    color: #eae3ea;
+    font-weight: 900;
 }
