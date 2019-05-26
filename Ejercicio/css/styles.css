@@ -5,17 +5,24 @@
  . es para clases es para ser reutilizada
   google fonts es la mejor opcion
   https://fonts.google.com/
+  se usan rems
 */
+
+html {
+    font-size: 62.5%;
+    /*Reset para REMS - 62.5% = 10 px de 16 px */
+}
 
 body {
     font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
 }
 
 
 /**Globales **/
 
 .contenedor {
-    max-width: 1200px;
+    max-width: 120rem;
     /*margin: 0 auto 0 auto;
     orden como de reloj, arriba, derecha, abajo, izquierda*/
     margin-left: auto;
@@ -33,7 +40,7 @@ body {
     /*Tomar el espacio disponible tanto en alto y 
     ancho guardando las proporciones*/
     height: 100vh;
-    min-height: 600px;
+    min-height: 60rem;
     /*toma la altura de la pantalla*/
 }
 
@@ -43,7 +50,7 @@ body {
     /*space-roud distribuye proporcionalmente*/
     align-items: flex-end;
     /*Alinea verticalmente*/
-    padding-top: 30px;
+    padding-top: 3rem;
     /*Espacio dentro del elemento*/
     /*  afuera del elemento*/
 }
@@ -56,8 +63,9 @@ body {
     /*color: rgba(255,255,255, .3) el ultimo es la transparecia*/
     /* hsla*/
     text-decoration: none;
-    font-size: 18px;
-    margin-right: 20px;
+    font-size: 1.8rem;
+    /* 18 px*/
+    margin-right: 2rem;
 }
 
 
