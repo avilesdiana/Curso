@@ -1,9 +1,15 @@
 /*
+@Diana Aviless
  Va en cascada, el último predomina.
  # es para id's, solo por página puede tener 1
  . es para clases es para ser reutilizada
- 
+  google fonts es la mejor opcion
+  https://fonts.google.com/
 */
+
+body {
+    font-family: 'Lato', sans-serif;
+}
 
 
 /**Globales **/
