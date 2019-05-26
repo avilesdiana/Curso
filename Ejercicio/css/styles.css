@@ -70,6 +70,25 @@ h4 {
 }
 
 
+/**Botones **/
+
+.boton {
+    color: whitesmoke;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.8rem;
+    padding: 1rem 3rem;
+}
+
+.boton-azul {
+    background-color: #5dade2;
+}
+
+.boton-amarillo {
+    background-color: #f7dc6f;
+}
+
+
 /* HEADER */
 
 .site-header.inicio {
@@ -190,7 +209,17 @@ h4 {
     /*Orden en mismas de las manecillas del reloj*/
 }
 
-.contenido-anuncio h3,
+.contenido-anuncio h3 {
+    margin: 0;
+    color: #fdfefe;
+    font-weight: 900;
+}
+
 .contenido-anuncio p {
     margin: 0;
+}
+
+.precio {
+    color: #e74c3c;
+    font-weight: 700;
 }
