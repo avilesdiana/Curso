@@ -253,3 +253,26 @@ h4 {
     display: flex;
     justify-content: flex-end;
 }
+
+
+/*Contacto HOME*/
+
+.imagen-contacto {
+    background-image: url(../img/encuentra.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 40rem;
+    display: flex;
+    align-items: center;
+}
+
+.contenido-contacto {
+    flex: 1;
+    /*Factor de crecimiento detecta el tamaño, y elmentos
+    hace la división y 1000px / no. elemntos*/
+    color: #fdfefe;
+}
+
+.contenido-contacto p {
+    font-size: 1.8rem;
+}
